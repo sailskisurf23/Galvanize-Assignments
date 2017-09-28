@@ -27,7 +27,7 @@ def lcm(*args):
     return counter
 
 #Execute function on inputs
-result = lcm(inputs)
+result = lcm(*inputs)
 
 #Print Result
 print(result)
